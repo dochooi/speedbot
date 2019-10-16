@@ -31,7 +31,7 @@ client.on('message', message => {
  
 
   // get role by name
-  let myRole = message.guild.roles.find(role => role.name === "Poltergeist(leader)");
+  
 
   
   // If the message is "ping"
@@ -44,7 +44,7 @@ client.on('message', message => {
   {
     
 
-    message.channel.send('You Are: ',myRole)
+    
   }
 
   
@@ -75,6 +75,11 @@ client.on('message', message => {
      }});
    }
 
+   if(message.content === 'my dick')
+   {
+      message.channel.send('is nanotech you like it?')
+   }
+
   
 
 });
@@ -83,4 +88,5 @@ client.on('message', message => {
 
    
 // Log our bot in using the token from https://discordapp.com/developers/applications/me
-client.login('NjI4NjY3NjQ1NTUzODAzMjc4.XZj2FQ.NVLjpu-J6bgwRvKCOHBZvr6SYgg');
+client.login('NjI4NjY3NjQ1NTUzODAzMjc4.XadlMQ.C3k1TeG8glbq1Wb_QqXsc87GcTk');
+  
